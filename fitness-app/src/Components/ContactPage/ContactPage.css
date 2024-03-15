@@ -1,0 +1,53 @@
+.contact-container{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    background-image: url('C:\Users\swani\OneDrive\Desktop\fitness_app\fitness-app\src\Components\assets\contact.png'); /* Replace 'path_to_your_background_image' with the actual path to your background image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white; /* Text color */
+}
+
+.contact-container h1 {
+    font-size: 2.5em; 
+    margin-top: 440px;
+    margin-bottom: 30px;
+    color: #7633E4;
+}
+
+.contact-container p {
+    font-size: 1.2em;
+    margin: 5px 0;
+    text-align: center;
+}
+
+.contact-details{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.phone,
+.email {
+    text-align: center;
+}
+
+.phone div{
+    margin-right: 20px; 
+}
+
+.email div{
+    margin-left: 20px;
+}
+
+.icon {
+    font-size: 1.5em; /* Adjust icon size as needed */
+}
